@@ -20,7 +20,7 @@ sudo mkdir -p /etc/apt/keyrings
 sudo nano /etc/apt/sources.list.d/nodesource.list
 
 #deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_ jammy main
-#üstteki komutu içersine girdiğimiz dosyaya yazıyoruz. (# ile deb arasında boşluk bırakın)
+# üstteki komutu içersine girdiğimiz dosyaya yazıyoruz. (# ile deb arasında boşluk bırakın)
 CTRL + X yapın sonra y diyin enter basın.
 
 sudo apt update -y && sudo apt upgrade -y
